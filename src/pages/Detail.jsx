@@ -7,7 +7,7 @@ const Detail = () => {
   return (
     <>
       <div className="detail-main container py-5">
-        <h1 className="text-center text-primary pb-4">{name}</h1>
+        <h1 className="text-center text-info pb-4">{name}</h1>
 
         <div className="country-body d-flex flex-wrap align-items-center justify-content-center gap-4">
           <img src={image} alt={name} className="rounded shadow" style={{ width: "300px" }} />
@@ -35,7 +35,7 @@ const Detail = () => {
                 ))}
               </ul>
             </div>
-          </div> <NavLink to="/" className="btn btn-dark mt-4 px-4  fw-bold">
+          </div> <NavLink to="/" className="btn btn-light mt-4 px-4  fw-bold">
               Go Back Home
             </NavLink>
         </div>
