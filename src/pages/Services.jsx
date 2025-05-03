@@ -40,7 +40,7 @@ const Services = () => {
       <h2 className="text-center mb-5 fw-bold">Our Services</h2>
       <div className="row g-4">
         {services.map((service, index) => (
-          <div className="col-sm-12 col-md-6 col-lg-4" key={index}>
+          <div className="col-sm-12 col-md-6 col-lg-4-2" key={index}>
             <div className="card h-100 shadow-sm service-card text-center p-3">
               <div className="mb-3">
                 <i className={`bi ${service.icon} display-4 text-primary`}></i>

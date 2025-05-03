@@ -278,6 +278,7 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 16px;
     background-color: #fff;
+    margin:  0 auto;
   }
   
   .service-card:hover , .card:hover {
